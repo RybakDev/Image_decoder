@@ -9,7 +9,7 @@ from PIL import Image
 
 app = FastAPI()
 
-MAX_OUTPUT_SIZE = int(os.getenv("MAX_OUTPUT_SIZE", "512"))
+MAX_OUTPUT_SIZE = int(os.getenv("MAX_OUTPUT_SIZE", "750"))
 MAX_DOWNLOAD_BYTES = int(os.getenv("MAX_DOWNLOAD_BYTES", "20000000"))
 
 
